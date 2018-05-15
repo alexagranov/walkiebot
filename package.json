@@ -20,6 +20,7 @@
     "test-redux-watch": "npm run test-redux -- --watch",
     "test": "npm run test-styles && npm run test-redux",
     "postinstall": "npm run build-prod",
+    "start-dev": "node ./devserver",
     "start": "node ./server"
   },
   "author": "kasper@founders.as",
